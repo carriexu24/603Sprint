@@ -41,11 +41,11 @@ def deploy(hostname, username, key, git_repo, prefix):
 
     ssh.close() #log out  
 
-if __name__ == '__main__':
-    hostname = 'ec2-34-213-110-139.us-west-2.compute.amazonaws.com'
-    username = 'testtest'
-    key = 'zhengjxu-west.pem'
-    git_repo = 'https://github.com/zhengjxu/msan603.git'
-    prefix = 'a'
+# if __name__ == '__main__':
+#     hostname = 
+#     username = 
+#     key = 
+#     git_repo = 'https://github.com/carriexu24/603Sprint'
+#     prefix = 'a'
 
-    deploy(hostname, username, key, git_repo, prefix)
+#     deploy(hostname, username, key, git_repo, prefix)

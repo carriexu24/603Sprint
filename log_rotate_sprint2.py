@@ -7,7 +7,7 @@ def rotate_log(path, prefix, filename):
     '''
     This process change the file name to a suffixed version, as log rotation does
 
-    :param when: 'S' -> second, 'M' -> minute
+    :param when: 'H' -> hour, M' -> minute, 'S' -> second
     :param path: path of file that needs to be rotated
     :param prefix: prefix
     :param filename: Raw.txt or proc.txt
